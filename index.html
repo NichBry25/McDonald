@@ -2,6 +2,9 @@
 <html>
 <head>
     <title>Log In</title>
+    <!--This code creates a style for the form, table, and body of the website. -->
+    <!--The form style is used to make everything inside the form appear in the middle of the website. -->
+    <!--The body style is used to make a background that fills up the whole entire website, without repetition.-->
     <style>
         form {
             margin: 0px;
@@ -18,32 +21,33 @@
             background-image: url('F0394CCA-5DD2-4DA8-802E-4B7DE9B17039_1_201_a.jpeg');
             background-repeat: no-repeat;
         }
-
     </style>
 </head>
 <body>
+    <!--This code will appear in the top-left side as a logo.-->
     <img src="McDonalds-Logo.jpeg" style="width: 5%;">
     <div class="form"></div>
         <form>
+            <!--Thisc creates big "Log In" text abobe the form.-->
             <h1 style="text-align: center; color: white;">Log In</h1>
-
+            <!--This accepts the first and last name of the user. -->
             <label for="fname" style="color: white;">First Name : </label>
             <input type="text" name="fname" placeholder="First Name"><br><br>
-
             <label for="lname" style="color: white;">Last Name : </label>
             <input type="text" name="lname" placeholder="Last Name"><br><br>
-
+            <!--This code asks the user what date they would make a reservation using the date input. -->
             <label style="color: white;">Reservation : </label>
             <input type="date"><br><br>
-            
+            <!--This code asks the user for the user email. -->
             <label for="email" style="color: white;">Email : </label>
             <input type="email" id="email" name="email"><br><br>
-
+            <!--This code asks for a password.-->
             <label for="password" style="color: white;">Password : </label>
             <input type="password" name="password"><br><br>
 
             <input style="width: 100%;" type="submit"><br><br>
     </div>
+    <!--This part of the code makes a table that is centered, containing a rowspan fucntion on the text with "Appatizers", "Main Course", and "Desserts".-->
     <h1 style="text-align: center; color: white;">Menu</h1>
     <table style="width: 100%;" border="5px">
         <tr style="background-color: red;">
